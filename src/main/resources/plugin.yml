@@ -1,0 +1,18 @@
+
+name: ZyverionTier
+version: 1.0.0
+main: xyz.zyverion.tier.ZyverionTier
+api-version: '1.21.11'
+author: Zyverion
+description: PvP Tier Management
+
+commands:
+  tier:
+    description: PvP Tier Management
+    usage: /tier
+
+permissions:
+  zyveriontier.admin:
+    description: Allows tier management
+    default: op
+    
